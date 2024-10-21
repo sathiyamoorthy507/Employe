@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eaeaea; /* Light grey background */
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center; /* Centered heading */
+    color: #333; /* Dark text color */
+}
+
+.employee {
+    background: white; /* White background for employee cards */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin-bottom: 20px; /* Space between cards */
+    padding: 20px; /* Inner padding */
+    max-width: 600px; /* Maximum width for cards */
+    margin-left: auto; /* Centering cards */
+    margin-right: auto; /* Centering cards */
+}
+
+.employee h2 {
+    margin: 0 0 10px; /* No margin at the top, some margin at the bottom */
+    font-size: 1.8em; /* Larger font size for names */
+    color: #007BFF; /* Blue color for names */
+}
+
+.employee p {
+    margin: 5px 0; /* Small margin for paragraphs */
+    font-size: 1em; /* Standard font size for details */
+}
+
+.employee strong {
+    color: #555; /* Slightly darker text for labels */
+}
